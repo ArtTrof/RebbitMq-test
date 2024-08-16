@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: local
+    password: local
+    connection-timeout: 5000
+
+queue.name: queueName
+topic.exchange: topicExchangeName
+routing.key: routingKeyName
